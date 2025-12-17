@@ -1,0 +1,28 @@
+{
+  "name": "clean-architecture-ts",
+  "version": "1.0.0",
+  "description": "clean architecture con typescript",
+  "homepage": "https://github.com/djramirez/clean_architecture#readme",
+  "bugs": {
+    "url": "https://github.com/djramirez/clean_architecture/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djramirez/clean_architecture.git"
+  },
+  "license": "ISC",
+  "author": "Jarkyn",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "dev": "tsx main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  }
+}
